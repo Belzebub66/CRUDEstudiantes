@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CRUDEstudiantes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/CRUDEstudiantes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

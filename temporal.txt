@@ -1,0 +1,4 @@
+12345,Mareli,Aragon Antonio,4,A,Ing. Informatica
+12345,Teresa,Lopez Porras,2,B,Ing. en Ciencia de Datos
+112233,Tomas,La cosa,3,C,Ing. Forestal
+12345,Raul,No te duermas,4,A,Ing. Informática
