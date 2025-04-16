@@ -105,6 +105,11 @@ public class VistaCRUDEstudiantes extends javax.swing.JFrame {
         });
 
         btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/editar48px.png"))); // NOI18N
+        btnEditar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnEditarMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -184,6 +189,12 @@ public class VistaCRUDEstudiantes extends javax.swing.JFrame {
         FrmEliminarEstudiante objEliminarEstudiante = new FrmEliminarEstudiante(this.objControladorCRUDEst);
         objEliminarEstudiante.setVisible(true);
     }// GEN-LAST:event_btnEliminarMouseClicked
+
+    private void btnEditarMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_btnEditarMouseClicked
+        // TODO add your handling code here:
+        FrmEditarEstudiante objEditarEstudiante = new FrmEditarEstudiante(this.objControladorCRUDEst);
+        objEditarEstudiante.setVisible(true);
+    }// GEN-LAST:event_btnEditarMouseClicked
 
     private void txtNumControlBuscarKeyPressed(java.awt.event.KeyEvent evt) {// GEN-FIRST:event_txtNumControlBuscarKeyPressed
         // TODO add your handling code here:
