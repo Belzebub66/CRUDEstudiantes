@@ -1,3 +1,3 @@
 88161019,Benedicto,Ramirez Santiago,2,B,Ing. Informática
 94161023,Sara,Connors,5,C,Ing. Forestal
-12,ee,ee,3,A,Ing. Informática
+12,eee,eee,7,A,Ing. Informática

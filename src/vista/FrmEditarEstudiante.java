@@ -324,6 +324,7 @@ public class FrmEditarEstudiante extends javax.swing.JFrame {
                         this.btnEliminar.setEnabled(true);
 
                         // hacer los campos de texto editables
+                        this.txtNumControl.setEnabled(false);
                         this.txtNombre.setEnabled(true);
                         this.txtApellidos.setEnabled(true);
                         this.cboSemestre.setEnabled(true);
@@ -360,6 +361,15 @@ public class FrmEditarEstudiante extends javax.swing.JFrame {
                 this.cboSemestre.setSelectedIndex(0);
                 this.rdbtnGrupoA.setSelected(true);
                 this.cboCarrera.setSelectedIndex(0);
+                this.txtNumControl.setEnabled(true);
+                this.txtNombre.setEnabled(false);
+                this.txtApellidos.setEnabled(false);
+                this.cboSemestre.setEnabled(false);
+                this.rdbtnGrupoA.setEnabled(false);
+                this.rdbtnGrupoB.setEnabled(false);
+                this.rdbtnGrupoC.setEnabled(false);
+                this.cboCarrera.setEnabled(false);
+                this.btnEliminar.setEnabled(false);
         }
 
         private void editar() {
